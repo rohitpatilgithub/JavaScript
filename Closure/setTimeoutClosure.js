@@ -17,3 +17,12 @@ x();
 
 // We can use let too ...
 // It is your task to find out how we can do it XD
+// Below is the ans
+function z(){
+    for(let i = 1 ; i <= 5 ; i++){
+        setTimeout(function (){
+            console.log(i)
+        },i*1000);
+    }
+}
+z();
