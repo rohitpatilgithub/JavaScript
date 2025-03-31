@@ -1,6 +1,7 @@
 # JavaScript Time! 🤓🕹️
 
-![giphy](https://github.com/user-attachments/assets/3beb129a-56bb-4a27-834d-279565ce7f3c))
+![giphy](https://github.com/user-attachments/assets/d637dbb1-c521-420a-902c-6a9b6ad86ae9)
+
 
 ## Description 📝
 
