@@ -1,6 +1,6 @@
 # Nerdy JavaScript Fun Time! 🤓🕹️
 
-![JS GIF](https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif)
+![JS GIF]([https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif](https://media.giphy.com/media/kSlj8H6LbhuWQ/giphy.gif?cid=790b7611soimhj02zxwtpqhy554ci7xh6dd1nssqbgf1ivr8&ep=v1_gifs_search&rid=giphy.gif&ct=g))
 
 ## Description 📝
 
