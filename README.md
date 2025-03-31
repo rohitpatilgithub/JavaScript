@@ -1,6 +1,6 @@
 # JavaScript Time! 🤓🕹️
 
-![JavaScript Nerd](https://media.giphy.com/media/5Zesu5VPNGJlm/giphy.gif)
+![giphy](https://github.com/user-attachments/assets/3beb129a-56bb-4a27-834d-279565ce7f3c))
 
 ## Description 📝
 
