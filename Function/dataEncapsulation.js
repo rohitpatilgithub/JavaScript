@@ -29,10 +29,10 @@ console.log(counter2.count) // same ' undefined '
 
 // If you want your brain to fk up then try to understand this
 // Hint : what we are doing here is called function constructor
-// Where Counting() is non-parameterized constructor function
+// Below Counting() is non-parameterized constructor function
 
 // function Counting(){
-//     this.count = 0;
+//     this.count = 0;    // we are making it instance
 //     this.incrementCount = function () {
 //         this.count++;
 //         console.log(this.count)
@@ -46,9 +46,9 @@ console.log(counter2.count) // same ' undefined '
 // counter1.incrementCount();
 // counter1.incrementCount();
 // counter1.incrementCount();
-// console.log(counter1.count)
+// console.log(counter1.count)    // thus now we can access our instance 'count'
 
-// Example of parameterized function constructor
+// Below is example of parameterized function constructor
 
 // function Animal(name,age){
 //     this.name = name;   // we are making it instance
