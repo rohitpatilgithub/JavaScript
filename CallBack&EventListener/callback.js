@@ -24,6 +24,7 @@ setTimeout(()=>{
 // EventListener ?
 // EventListener also uses callback function
 // "When an event occurs, the callback function is added to the Call Stack and executed."
+// Here our anonymous function is the callback function
 // document.getElementById('clicked').addEventListener("click",()=>{
 //      console.log("Button clicked")
 // })
