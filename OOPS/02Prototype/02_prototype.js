@@ -1,32 +1,25 @@
-class Person{
-    constructor (name,age){
-        this.name = name;
-        this.age = age;
-    }
+function BankManager(name,amount){
+    this.name = name;
+    this.amount = amount;
 
-    getAge() {
-        console.log(this.age)
-    }
+    // Our deposit is not memory efficient so lets create method into its prototype
+    // this.deposit = (depositAmt) => {
+    //     this.amount += depositAmt;
+    // }
 }
 
-// Prototype is property of function / class
-// Prototype holds methods and properties 
-// When instance of function / class is created using new , its prototype points to contructors Prototype
+console.log(BankManager.prototype) // here we don't have deposit in prototype
 
-// __proto__ is in every object
-// It contains shared methods and properties defined by class or function
+// Now memory is created once and can be shared with all instances
+BankManager.prototype.deposit = function (depositAmt) {
+    this.amount += depositAmt;
+}
 
-// When we create class Person
-// Js creates Person.prototype object
-// __proto__ contains information of its base class
-// __proto__ doesn't contain the methods and properties; it points to an object that does.
+console.log(BankManager.prototype) // // here we have deposit in prototype
+rohit = new BankManager('Rohit',2000);
+rohit.deposit(100);
+console.log(rohit)
 
-// Whenever a Object of class 'Person' is created 
-// ex : p1 = new Person();
-//      p1.__proto__               === Person.prototype
-//      Person.prototype.__proto__ === Object.prototype
-//      Object.prototype.__proto__ === null
-
-p1 = new Person();
-p2 = Object.create(p1);
-console.log(p2);
+// At first why it is not efficient for memory ?
+// Every time we create instance , our deposit() will consume memory along with object
+// So it is convenient to assign it to its prototype
