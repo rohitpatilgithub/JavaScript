@@ -1,3 +1,6 @@
+// Consumer Promise Practice
+// Task : Create a promise to print the name of all users
+
 // Both blocks are consumers because we have not created a promise using constructor
 
 API = fetch('https://jsonplaceholder.typicode.com/users')
