@@ -1,5 +1,6 @@
 // Producer Practice
 // Task : Create a Delayed Promise (Producer)
+// Note check producer01.js because this is not much professional , readable and not structured as well : )
 
 API = fetch('https://jsonplaceholder.typicode.com/users')
 
