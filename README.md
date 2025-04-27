@@ -10,6 +10,6 @@
 # 06 Callback and EventListener
 # 07 Event Loop
 # 08 setTimeout Trust Issues ( go through GarbageCollector )
-# 09 Function -> Higher order function
+# 09 Map , Filter , reduce ( Higher order function )
 # 10 Js ( V8 )
 # 11 OOP
