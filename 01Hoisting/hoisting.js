@@ -12,3 +12,4 @@ var getAge = () => {
   console.log("Age is just a number")
 }
 
+//Hosting is all about Execution Context
